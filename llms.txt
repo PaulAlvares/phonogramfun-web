@@ -20,6 +20,8 @@
 - [Support and FAQ](https://phonogramfun.com/support.html): managing or cancelling a subscription, scanning tips, restoring purchases
 - [Privacy policy](https://phonogramfun.com/privacy-policy.html)
 - [Phonics explained for parents: ages 2–7 and the Year 1 phonics check](https://phonogramfun.com/learn/)
+- [What is a phonogram? A parent's 5-minute guide](https://phonogramfun.com/learn/what-is-a-phonogram.html): definition, phonogram vs phoneme vs grapheme vs digraph, and how phonograms help with reading and spelling
+- [The 70 phonograms: every sound, with example words](https://phonogramfun.com/learn/the-70-phonograms.html): all 70 phonograms in teaching order with every sound and an example word, printable
 - [The Year 1 Phonics Screening Check, explained for parents](https://phonogramfun.com/learn/phonics-screening-check.html)
 - [The Year 1 Phonics Check in Australia](https://phonogramfun.com/learn/year-1-phonics-check-australia.html)
 - [Is there a phonics test in first grade?](https://phonogramfun.com/learn/phonics-screening-first-grade-us.html)
