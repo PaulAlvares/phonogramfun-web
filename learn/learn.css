@@ -280,3 +280,31 @@ header.nav,.skip,.crumbs,.byline,.ahero .cta-row,.ahero .trial-note,.wordcard,.t
 .ahero{padding-bottom:2mm}
 a{color:inherit;border:0!important}
 }
+/* ---------- spelling pages: week cards, word chips, exception-word groups ---------- */
+.read .wk-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:0 0 28px}
+.wk{min-width:0;background:#fff;border:2px solid var(--ink);border-radius:18px;padding:16px 18px 18px;box-shadow:0 4px 0 var(--ink);break-inside:avoid}
+.wk-top{display:flex;flex-direction:column;align-items:flex-start;gap:8px;margin-bottom:14px}
+.read .wk h3{font-size:19px;line-height:1.2;margin:0}
+.wk-n{color:var(--pri)}
+.wk-focus{display:flex;flex-wrap:wrap;gap:4px}
+.wk-focus .tile{--sz:26px}
+.read .wchips{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px}
+.read .wchips li{margin:0;font-family:var(--fd);font-weight:500;font-size:18px;line-height:1.25;background:var(--bg);border:2px solid var(--ink);border-radius:999px;padding:4px 13px;box-shadow:0 2px 0 var(--ink)}
+.wk-print-note{display:none}
+.cew{background:#fff;border:2px solid var(--ink);border-radius:20px;padding:20px 22px;margin:0 0 18px;box-shadow:0 4px 0 var(--ink)}
+.read .cew h3{font-size:21px;margin:0 0 6px}
+.read .cew .why{font-size:16px;font-weight:700;color:var(--soft);margin:0 0 14px}
+.read .cew .cew-ex{font-size:16.5px;margin:14px 0 0;padding-top:14px;border-top:2px dashed var(--line)}
+.read .tiles .t-silent{opacity:.38}
+.key{display:inline-block;font-weight:800;font-size:.9em;line-height:1.3;color:#fff;border-radius:6px;padding:0 7px}.key-odd{background:var(--s1)}.key-silent{background:var(--s0);opacity:.5}
+@media (max-width:640px){.read .wk-grid{grid-template-columns:1fr}.cew{padding:18px}}
+@media print{
+.wk-page>*:not(.wk-grid):not(#the-year-1-list-week-by-week):not(.wk-print-note){display:none!important}
+.read .wk-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:3mm;margin:0}
+.wk{padding:3mm 4mm;border-width:1px;border-radius:3mm}
+.read .wk h3{font-size:12pt}
+.wk-focus .tile{--sz:18px}
+.read .wchips{gap:2mm}
+.read .wchips li{font-size:13pt;padding:0 8px;border-width:1px}
+.wk-print-note{display:block!important;font-size:8pt;color:#555;margin-top:4mm}
+}
