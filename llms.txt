@@ -1,23 +1,32 @@
 # Phonogram Fun
 
-> Phonogram Fun is a kids' spelling and reading app for iPhone, iPad and Android, made in Australia by Paul Alvares for children aged 5–12. Parents photograph the week's school spelling list and the app turns those exact words into a 5-level "Fill the Gaps" story game, dictation practice and phonogram lessons, teaching spelling by sounds with the 70 Spalding phonograms, Australian voices and Australian spelling. There are no ads.
+> Phonogram Fun is a kids' spelling and reading app for iPhone, iPad and Android, made in Australia by Paul Alvares for children aged 4 to 12 (Prep, Kindy or Reception to Year 6). Parents photograph the week's school spelling list and the app turns those exact words into Word Climb, a 5-level "Fill the Gaps" story game and dictation practice, teaching spelling by sounds with the 70 Spalding phonograms and a choice of Australian or British English voices. There are no ads.
 
 ## Key facts
 
-- Platforms: iOS and iPadOS ([App Store](https://apps.apple.com/us/app/phonogramfun/id6775725201)) and Android ([Google Play](https://play.google.com/store/apps/details?id=com.phonogramfun.app)). Store names: "Kids Spelling: Phonogram Fun" (App Store) and "Phonogram Fun: Kids Spelling" (Google Play); also written "PhonogramFun".
-- Ages: designed for children aged 5–12.
-- Core feature: photograph the school spelling list; the app imports the words and builds a 5-level "Fill the Gaps" story game, dictation practice and phonogram lessons around them.
-- Phonics method: teaches spelling and reading by sounds using the 70 Spalding phonograms, with Australian voices and spelling conventions.
-- Other features: interactive 70-phonogram chart with audio; word analyser that splits any word into sound tiles (e.g. sight = s + igh + t); 34 standalone phonogram modules; parent dashboard; daily streaks; Year 1 phonics check practice.
-- Pricing (AUD): Free tier with one mission a day, the full phonogram chart and the word analyser. "Phonogram Fun Plus" costs $4.99/month or $39.99/year after a 7-day free trial; subscriptions are managed in the App Store (iOS) or Google Play (Android).
-- Privacy: no ads; minimal data collection; a child's optional first name is stored only on the device. Full details in the [privacy policy](https://phonogramfun.com/privacy-policy.html).
+- Platforms: iPhone, iPad (native iPad app with a landscape layout) and Android phones and tablets. Also works on Chromebooks that run Android apps. Not a web app. Current version: 1.7 (27 September 2026).
+- Download: [App Store](https://apps.apple.com/us/app/phonogram-fun-kids-spelling/id6775725201) and [Google Play](https://play.google.com/store/apps/details?id=com.phonogramfun.app). Store names: "Kids Spelling: Phonogram Fun" (App Store) and "Phonogram Fun: Kids Spelling" (Google Play); also written "PhonogramFun".
+- Ages: designed for children aged 4 to 12. Australia: Prep/Kindy/Foundation to Year 6. England: Reception to Year 6. US: K to grade 6, but the built-in lists, voices and spelling are Australian/British.
+- Core feature: photograph the school spelling list (or type it); the app imports the words and builds Word Climb, Fill the Gaps stories, dictation and phonogram practice around them.
+- Word Climb: a multi-rung game built from the scanned list. For each word the child hears it, sounds it out, builds it from phonogram blocks, fills the gap in a story, then spells it blind. Climbs can be resumed.
+- Other features: flash cards for the 70 phonograms; revision mode (mixed revision of earlier weeks); dictation with "Hear the word"; interactive 70-phonogram chart with audio; word analyser that splits any word into sound tiles (e.g. sight = s + igh + t); 34 standalone phonogram modules; parent dashboard; daily streaks; iPad landscape layout.
+- Phonics Check: 12 real past Phonics Screening Check papers from England (2012 to 2019 and 2022 to 2025), real and alien words, Australian or British voice, and a Readiness Map of the 70 phonograms coloured light to dark green. A parent runs a paper in about 5 minutes: the child reads each word aloud, the parent taps tick or cross, and the result screen shows which phonograms to work on.
+- Common exception words module: Year 1 (45 words) and Year 2 (64 words), grouped by the rule each word breaks.
+- Voices and spelling: Australian or British English voice (selectable); Australian and British spelling conventions (en-AU, en-GB). No American voice.
+- Pricing: free tier with one mission a day, the full 70-phonogram chart, Sound Play and the word analyser. "Phonogram Fun Plus" costs AUD $4.99/month or $39.99/year (save 33%); UK £2.99/month or £24.99/year; US $2.99/month or $24.99/year; 7-day free trial. iOS Family Sharing is enabled. Subscriptions are managed in the App Store (iOS) or Google Play (Android).
+- Offline: the phonogram chart, flash cards, built-in lists, phonics check papers and Word Climb on already-saved lists work offline. Scanning a new list and generating a new story need an internet connection (they use an online service to read the photo and write the story). Photos are sent to that service only to extract the words and are not stored.
+- Privacy: no ads, no tracking SDKs, no account required; a child's optional first name is stored only on the device. Full details in the [privacy policy](https://phonogramfun.com/privacy-policy.html).
+- Not for: children under 4, high-school vocabulary, languages other than English, handwriting practice, or replacing a speech pathologist. It is a structured phonics practice tool, not a dyslexia diagnosis or therapy.
 - Non-affiliation: Phonogram Fun is not affiliated with Spalding Education International.
 
 ## Pages
 
-- [Phonogram Fun — home](https://phonogramfun.com/): what the app does, modules, the phonogram chart and pricing
+- [Phonogram Fun — home](https://phonogramfun.com/): what the app does, every feature in plain text, the phonogram chart and pricing
 - [Get started](https://phonogramfun.com/get-started.html): adding your spelling list and a typical week in the app
 - [Support and FAQ](https://phonogramfun.com/support.html): managing or cancelling a subscription, scanning tips, restoring purchases
+- [FAQ](https://phonogramfun.com/faq.html): devices, prices in AUD/GBP/USD, free trial, what's free, Family Sharing, ages, school years, accents, offline use, privacy, the scan, the Phonics Check, cancelling, tutors and dyslexia
+- [Who it's for](https://phonogramfun.com/who-its-for.html): ages 4 to 12, school years in Australia, England and the US, and what the app is not the right tool for
+- [Release history](https://phonogramfun.com/changelog.html): dated changelog, newest first; current version 1.7
 - [Privacy policy](https://phonogramfun.com/privacy-policy.html)
 - [Phonics explained for parents: ages 2–7 and the Year 1 phonics check](https://phonogramfun.com/learn/)
 - [What is a phonogram? A parent's 5-minute guide](https://phonogramfun.com/learn/what-is-a-phonogram.html): definition, phonogram vs phoneme vs grapheme vs digraph, and how phonograms help with reading and spelling
