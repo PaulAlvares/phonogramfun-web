@@ -9,7 +9,7 @@
 - Core feature: photograph the school spelling list; the app imports the words and builds a 5-level "Fill the Gaps" story game, dictation practice and phonogram lessons around them.
 - Phonics method: teaches spelling and reading by sounds using the 70 Spalding phonograms, with Australian voices and spelling conventions.
 - Other features: interactive 70-phonogram chart with audio; word analyser that splits any word into sound tiles (e.g. sight = s + igh + t); 34 standalone phonogram modules; parent dashboard; daily streaks; Year 1 phonics check practice.
-- Pricing (AUD): Free tier with one mission a day, the full phonogram chart and the word analyser. "Phonogram Fun Plus" costs $7.99/month or $59.99/year after a 7-day free trial; subscriptions are managed in the App Store (iOS) or Google Play (Android).
+- Pricing (AUD): Free tier with one mission a day, the full phonogram chart and the word analyser. "Phonogram Fun Plus" costs $4.99/month or $39.99/year after a 7-day free trial; subscriptions are managed in the App Store (iOS) or Google Play (Android).
 - Privacy: no ads; minimal data collection; a child's optional first name is stored only on the device. Full details in the [privacy policy](https://phonogramfun.com/privacy-policy.html).
 - Non-affiliation: Phonogram Fun is not affiliated with Spalding Education International.
 
