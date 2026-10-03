@@ -299,7 +299,7 @@ a{color:inherit;border:0!important}
 .key{display:inline-block;font-weight:800;font-size:.9em;line-height:1.3;color:#fff;border-radius:6px;padding:0 7px}.key-odd{background:var(--s1)}.key-silent{background:var(--s0);opacity:.5}
 @media (max-width:640px){.read .wk-grid{grid-template-columns:1fr}.cew{padding:18px}}
 @media print{
-.wk-page>*:not(.wk-grid):not(#the-year-1-list-week-by-week):not(.wk-print-note){display:none!important}
+.wk-page>*:not(.wk-grid):not(#the-year-1-list-week-by-week):not(.wk-print-h):not(.wk-print-note){display:none!important}
 .read .wk-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:3mm;margin:0}
 .wk{padding:3mm 4mm;border-width:1px;border-radius:3mm}
 .read .wk h3{font-size:12pt}
@@ -308,3 +308,23 @@ a{color:inherit;border:0!important}
 .read .wchips li{font-size:13pt;padding:0 8px;border-width:1px}
 .wk-print-note{display:block!important;font-size:8pt;color:#555;margin-top:4mm}
 }
+/* ---------- ten-week lists (Prep/Kindy, Year 2): fit all ten cards on one A4 ---------- */
+@media print{
+.wk-10 .wk-grid{gap:2mm}
+.wk-10 .wk{padding:2mm 3mm}
+.wk-10 .wk-top{margin-bottom:1.5mm;gap:1mm}
+.read.wk-10 .wk h3{font-size:10.5pt}
+.wk-10 .wk-focus .tile{--sz:14px}
+.read.wk-10 .wchips{gap:1.5mm}
+.read.wk-10 .wchips li{font-size:11pt;padding:0 6px;box-shadow:none}
+}
+/* ---------- ough page: word + phonogram tiles list ---------- */
+.read .ough-list{list-style:none;padding:0;margin:0 0 22px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.read .ough-list li{margin:0;padding:10px 14px;display:flex;align-items:center;justify-content:space-between;gap:10px;background:#fff;border:2px solid var(--ink);border-radius:14px;box-shadow:0 3px 0 var(--ink)}
+.read .ough-list li::before{display:none}
+.ough-w{font-family:var(--fd);font-weight:600;font-size:19px}
+.read .ough-list .tiles .tile{--sz:30px!important}
+@media (max-width:640px){.read .ough-list{grid-template-columns:1fr}}
+
+/* source citations under tables (added 2026-10-03) */
+.read p.sources{font-size:14px;line-height:1.55;color:var(--soft);margin-top:-6px}
