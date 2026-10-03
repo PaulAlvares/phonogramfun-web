@@ -219,7 +219,92 @@ body{padding-bottom:76px}}
 .read th+th,.read td+td{border-left:1px solid var(--line)}
 .read th{font-family:var(--fd);font-weight:600;background:var(--alt)}
 .read tr:last-child td{border-bottom:none}
+/* article body: keep the .wrap side gutter (the .article-grid padding shorthand was zeroing it) */
+.wrap.article-grid{padding-left:28px;padding-right:28px}
+@media (max-width:640px){.wrap.article-grid{padding-left:18px;padding-right:18px}}
 /* mobile sticky CTA: keep it inside the viewport at 360px */
 @media (max-width:640px){.sticky-cta .t{min-width:0;flex:1 1 auto}.sticky-cta .t small{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.sticky-cta .nav-cta,.sticky-cta .btn-primary{flex:none}}
 .sticky-cta{overflow:hidden}
 @media (max-width:640px){header.nav .nav-cta{display:none}}
+/* ---------- tile thumbs (cards without a screenshot) ---------- */
+.card .thumb.tthumb,.gcard .thumb.tthumb{display:flex;align-items:center;justify-content:center;gap:10px;padding:0;background:var(--pri-soft)}
+.gcard .thumb.tthumb{flex-direction:column;gap:8px}
+.tthumb .tile{--sz:50px}
+/* ---------- phonogram chart (the-70-phonograms) ---------- */
+.pg-tools{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin:6px 0 26px}
+.pg-tools .jump{margin:0}
+.print-btn{font-family:var(--fd);font-weight:600;font-size:16px;color:#fff;background:var(--pri);border:0;border-radius:12px;padding:10px 18px;box-shadow:0 4px 0 var(--pri-dk);cursor:pointer}
+.print-btn:hover{background:var(--pri-dk)}.print-btn:active{transform:translateY(4px);box-shadow:none}
+.read .pg-intro{font-size:17px;color:var(--soft);font-weight:600}
+.read .pg-grid{list-style:none;padding:0;margin:0 0 30px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.read .pg-grid li{counter-increment:none;padding-left:0;min-height:0}
+.read .pg-grid>li{padding:12px 14px 12px 12px;margin:0}
+.read .pg-grid li::before{display:none}
+.pg-row{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:4px 14px;background:#fff;border:2px solid var(--ink);border-radius:16px;padding:12px 14px 12px 12px;box-shadow:0 3px 0 var(--ink);position:relative;break-inside:avoid}
+.pg-num{position:absolute;top:8px;right:10px;font-weight:900;font-size:12px;color:var(--soft)}
+.pg-row .pg-tile{--sz:52px;align-self:start}
+.pg-body{min-width:0;padding-right:18px}
+.read .pg-sounds{list-style:none;padding:0;margin:0;font-size:16px;line-height:1.4}
+.read .pg-sounds li{margin:0 0 3px}
+.read .pg-sounds li::marker{content:none}
+.pg-sounds b{font-weight:900;color:var(--pri-dk)}
+.pg-sounds em{font-style:normal;font-weight:800}
+.pg-note{display:inline-block;margin-top:5px;font-size:12.5px;font-weight:800;color:var(--ink);background:#FFF1D2;border-radius:7px;padding:2px 8px}
+@media (max-width:640px){.read .pg-grid{grid-template-columns:1fr}.pg-row .pg-tile{--sz:46px}}
+/* ---------- print: clean A4 chart ---------- */
+@media print{
+@page{size:A4;margin:10mm}
+html,body{background:#fff!important;padding:0!important}
+*{-webkit-print-color-adjust:exact;print-color-adjust:exact;box-shadow:none!important}
+header.nav,.skip,.crumbs,.byline,.ahero .cta-row,.ahero .trial-note,.wordcard,.toc,.agestrip,.appcard,.faq,#faq,.more-reading,.final,footer,.sticky-cta,.pg-tools,.pg-page>p:first-child,.pg-page>p:last-of-type{display:none!important}
+.ahero{padding:0 0 4mm;background:#fff;border:0}
+.ahero-grid{display:block}
+.ahero h1{font-size:20pt;margin:0}
+.ahero .lede{font-size:10pt;margin:1mm 0 0;max-width:none}
+.wrap{max-width:none;padding:0}
+.article-grid,.wrap.article-grid{display:block;padding:0}
+.read .note{margin:0 0 3mm;padding:2mm 3mm;border-width:1px;border-radius:3mm}
+.read .note p{font-size:8pt}.read .note .lab{font-size:7pt;margin-bottom:1mm;padding:1px 5px}
+.read h2{font-size:13pt;margin:3mm 0 2mm}
+.read .pg-intro{display:none}
+.read .pg-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:1.2mm;margin:0;align-items:start}
+.read .pg-grid>li.pg-row{gap:0 2mm;padding:1.5mm 2mm;border-width:1px;border-radius:2mm}
+.pg-row .pg-tile{--sz:20px}
+.pg-num{top:1mm;right:1.5mm;font-size:6pt}
+.pg-body{padding-right:3mm}
+.read .pg-sounds{font-size:7pt;line-height:1.2}
+.read .pg-sounds li{margin:0}
+.pg-note{font-size:6.5pt;padding:0 3px;margin-top:0.5mm}
+.pg-asin,.ahero .kicker{display:none!important}
+.ahero .lede{display:none}
+.ahero{padding-bottom:2mm}
+a{color:inherit;border:0!important}
+}
+/* ---------- spelling pages: week cards, word chips, exception-word groups ---------- */
+.read .wk-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:0 0 28px}
+.wk{min-width:0;background:#fff;border:2px solid var(--ink);border-radius:18px;padding:16px 18px 18px;box-shadow:0 4px 0 var(--ink);break-inside:avoid}
+.wk-top{display:flex;flex-direction:column;align-items:flex-start;gap:8px;margin-bottom:14px}
+.read .wk h3{font-size:19px;line-height:1.2;margin:0}
+.wk-n{color:var(--pri)}
+.wk-focus{display:flex;flex-wrap:wrap;gap:4px}
+.wk-focus .tile{--sz:26px}
+.read .wchips{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px}
+.read .wchips li{margin:0;font-family:var(--fd);font-weight:500;font-size:18px;line-height:1.25;background:var(--bg);border:2px solid var(--ink);border-radius:999px;padding:4px 13px;box-shadow:0 2px 0 var(--ink)}
+.wk-print-note{display:none}
+.cew{background:#fff;border:2px solid var(--ink);border-radius:20px;padding:20px 22px;margin:0 0 18px;box-shadow:0 4px 0 var(--ink)}
+.read .cew h3{font-size:21px;margin:0 0 6px}
+.read .cew .why{font-size:16px;font-weight:700;color:var(--soft);margin:0 0 14px}
+.read .cew .cew-ex{font-size:16.5px;margin:14px 0 0;padding-top:14px;border-top:2px dashed var(--line)}
+.read .tiles .t-silent{opacity:.38}
+.key{display:inline-block;font-weight:800;font-size:.9em;line-height:1.3;color:#fff;border-radius:6px;padding:0 7px}.key-odd{background:var(--s1)}.key-silent{background:var(--s0);opacity:.5}
+@media (max-width:640px){.read .wk-grid{grid-template-columns:1fr}.cew{padding:18px}}
+@media print{
+.wk-page>*:not(.wk-grid):not(#the-year-1-list-week-by-week):not(.wk-print-note){display:none!important}
+.read .wk-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:3mm;margin:0}
+.wk{padding:3mm 4mm;border-width:1px;border-radius:3mm}
+.read .wk h3{font-size:12pt}
+.wk-focus .tile{--sz:18px}
+.read .wchips{gap:2mm}
+.read .wchips li{font-size:13pt;padding:0 8px;border-width:1px}
+.wk-print-note{display:block!important;font-size:8pt;color:#555;margin-top:4mm}
+}

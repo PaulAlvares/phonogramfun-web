@@ -1,9 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-AU">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Phonogram Fun — Get Started</title>
+<title>Get started with Phonogram Fun — add your spelling list in 4 steps</title>
+<meta name="description" content="Get started with Phonogram Fun: scan or type your child's spelling list, play Fill the Gaps, practise phonograms and keep old words fresh with Revision." />
+<link rel="canonical" href="https://phonogramfun.com/get-started.html" />
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+<meta name="theme-color" content="#5B5BE0" />
+<link rel="icon" href="/landing-assets/app-icon.png" type="image/png" />
+<link rel="apple-touch-icon" href="/landing-assets/app-icon.png" />
+<meta name="apple-itunes-app" content="app-id=6775725201" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Phonogram Fun" />
+<meta property="og:title" content="Get started with Phonogram Fun — add your spelling list in 4 steps" />
+<meta property="og:description" content="Get started with Phonogram Fun: scan or type your child's spelling list, play Fill the Gaps, practise phonograms and keep old words fresh with Revision." />
+<meta property="og:url" content="https://phonogramfun.com/get-started.html" />
+<meta property="og:image" content="https://phonogramfun.com/learn/img/og-phonogram-fun.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Phonogram Fun — Ready for the phonics check, better at homework. A phone showing a practice-check result beside the alien word sh-u-p split into sound tiles." />
+<meta property="og:locale" content="en_AU" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Get started with Phonogram Fun — add your spelling list in 4 steps" />
+<meta name="twitter:description" content="Get started with Phonogram Fun: scan or type your child's spelling list, play Fill the Gaps, practise phonograms and keep old words fresh with Revision." />
+<meta name="twitter:image" content="https://phonogramfun.com/learn/img/og-phonogram-fun.png" />
+<meta name="twitter:image:alt" content="Phonogram Fun — Ready for the phonics check, better at homework. A phone showing a practice-check result beside the alien word sh-u-p split into sound tiles." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@600;700;800;900&display=swap" rel="stylesheet">
@@ -122,15 +144,14 @@ nav {
   transition: transform .12s, box-shadow .12s;
 }
 .badge-ios { background: var(--ink); }
-.badge-android { background: #EDEAF8; cursor: default; }
-.badge-ios:hover { transform: translateY(-2px); box-shadow: 0 6px 0 rgba(43,36,64,.18), 0 14px 28px rgba(43,36,64,.18); }
+.badge-android { background: var(--ink); }
+.badge-ios:hover, .badge-android:hover { transform: translateY(-2px); box-shadow: 0 6px 0 rgba(43,36,64,.18), 0 14px 28px rgba(43,36,64,.18); }
 .badge-icon { font-size: 24px; line-height: 1; flex: none; }
 .badge-text { display: flex; flex-direction: column; gap: 1px; }
 .badge-text .top { font-size: 10px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; }
 .badge-text .main { font-family: var(--display); font-weight: 600; font-size: 19px; line-height: 1; }
 .badge-ios .top, .badge-ios .main { color: #fff; }
-.badge-android .top { color: var(--muted); }
-.badge-android .main { color: #9990b8; }
+.badge-android .top, .badge-android .main { color: #fff; }
 .badge-cs {
   margin-left: 4px; font-family: var(--body); font-weight: 900;
   font-size: 10px; letter-spacing: .06em; text-transform: uppercase;
@@ -312,13 +333,14 @@ section.content {
 }
 .badge-ios-lg:hover { transform: translateY(-2px); }
 .badge-android-lg {
-  background: rgba(255,255,255,.18); border: 2px solid rgba(255,255,255,.3);
-  cursor: default;
+  background: #fff;
+  box-shadow: 0 4px 0 rgba(0,0,0,.2), 0 10px 24px rgba(0,0,0,.16);
 }
+.badge-android-lg:hover { transform: translateY(-2px); }
 .badge-ios-lg .badge-text .top { color: var(--ink); }
 .badge-ios-lg .badge-text .main { color: var(--primary); }
-.badge-android-lg .badge-text .top { color: rgba(255,255,255,.7); }
-.badge-android-lg .badge-text .main { color: #fff; }
+.badge-android-lg .badge-text .top { color: var(--ink); }
+.badge-android-lg .badge-text .main { color: var(--primary); }
 .cta-fine {
   margin-top: 20px; font-family: var(--body); font-weight: 700;
   font-size: 12.5px; color: rgba(255,255,255,.6);
@@ -367,7 +389,7 @@ footer {
 
 <!-- HERO -->
 <div class="hero">
-  <div class="hero-eyebrow">🎉 Now on the App Store</div>
+  <div class="hero-eyebrow">🎉 Now on the App Store and Google Play</div>
   <h1>Spelling homework,<br><span>without the battle.</span></h1>
   <p class="hero-sub">
     Phonogram Fun turns your child's weekly spelling list into something you both
@@ -379,11 +401,10 @@ footer {
       <span class="badge-icon">🍎</span>
       <span class="badge-text"><span class="top">Download on the</span><span class="main">App Store</span></span>
     </a>
-    <div class="badge-android">
+    <a class="badge-android" href="https://play.google.com/store/apps/details?id=com.phonogramfun.app" target="_blank" rel="noopener">
       <span class="badge-icon">🤖</span>
-      <span class="badge-text"><span class="top">Coming soon to</span><span class="main">Google Play</span></span>
-      <span class="badge-cs">Soon</span>
-    </div>
+      <span class="badge-text"><span class="top">Get it on</span><span class="main">Google Play</span></span>
+    </a>
   </div>
   <p class="trial-note"><b>7 days free</b> — cancel anytime, no charge until day 8.</p>
 </div>
@@ -593,12 +614,12 @@ footer {
         <span class="badge-icon">🍎</span>
         <span class="badge-text"><span class="top">Download on the</span><span class="main" style="color:var(--primary)">App Store</span></span>
       </a>
-      <div class="badge-android-lg">
+      <a class="badge-android-lg" href="https://play.google.com/store/apps/details?id=com.phonogramfun.app" target="_blank" rel="noopener">
         <span class="badge-icon">🤖</span>
-        <span class="badge-text"><span class="top">Android</span><span class="main">Coming soon</span></span>
-      </div>
+        <span class="badge-text"><span class="top">Get it on</span><span class="main" style="color:var(--primary)">Google Play</span></span>
+      </a>
     </div>
-    <p class="cta-fine">After your trial: monthly or annual plan, set by the App Store for your region. Cancel before day 8 and you won't be charged.</p>
+    <p class="cta-fine">After your trial: monthly or annual plan, set by the App Store or Google Play for your region. Cancel before day 8 and you won't be charged.</p>
   </div>
 </div>
 
@@ -619,7 +640,8 @@ footer {
         <div class="foot-col">
           <h4>Get started</h4>
           <a href="index.html#pricing">Pricing</a>
-          <a href="https://apps.apple.com/us/app/phonogramfun/id6775725201" target="_blank" rel="noopener">Download</a>
+          <a href="https://apps.apple.com/us/app/phonogramfun/id6775725201" target="_blank" rel="noopener">App Store</a>
+          <a href="https://play.google.com/store/apps/details?id=com.phonogramfun.app" target="_blank" rel="noopener">Google Play</a>
         </div>
         <div class="foot-col">
           <h4>Help</h4>
@@ -632,7 +654,7 @@ footer {
     <div class="foot-note">
       <div class="big">Read by sounds.</div>
       Designed for ages 5–12. Australian voices and spelling conventions. No ads, ever.<br><br>
-      Phonogram Fun Plus: AUD $7.99/month or $59.99/year after your free trial. Subscriptions renew automatically unless cancelled at least 24 hours before the period ends; manage anytime in your App Store account settings.
+      Phonogram Fun Plus: AUD $4.99/month or $39.99/year after your free trial. Subscriptions renew automatically unless cancelled at least 24 hours before the period ends; manage anytime in your App Store or Google Play account settings.
       <br><br>© 2026 Paul Alvares. Not affiliated with The Spalding Education organization.
     </div>
   </div>
