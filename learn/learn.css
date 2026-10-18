@@ -328,3 +328,42 @@ a{color:inherit;border:0!important}
 
 /* source citations under tables (added 2026-10-03) */
 .read p.sources{font-size:14px;line-height:1.55;color:var(--soft);margin-top:-6px}
+
+/* ---------- wave 1 (2026-10-18): past papers, alien chips, phonogram cards ---------- */
+.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.read ol.wchips.paper{list-style:none;padding:0}
+.read .wchips li.alien{background:#F1ECFF;border-style:dashed;border-color:#6A4FD8;color:#3A2A8C}
+.read .wchips .pn{display:inline-block;min-width:1.5em;margin-right:6px;font-family:var(--nu);font-weight:900;font-size:12px;color:var(--soft);vertical-align:2px}
+.read .key-line{font-size:14.5px;font-weight:700;color:var(--soft);margin:-12px 0 24px}
+.kchip{display:inline-block;font-family:var(--fd);font-size:14px;border:2px solid var(--ink);border-radius:999px;padding:0 9px;background:var(--bg)}
+.kchip.alien{background:#F1ECFF;border-style:dashed;border-color:#6A4FD8;color:#3A2A8C}
+.read .wk-d{font-size:14.5px;font-weight:700;color:var(--soft);margin:0}
+.read .countdown{font-family:var(--fd);font-size:20px;background:var(--pri-soft);border:2px solid var(--ink);border-radius:16px;padding:12px 18px;box-shadow:0 4px 0 var(--ink);margin:0 0 26px}
+.read .yr-nav{font-weight:800;margin-top:22px}
+.read .fc-grid{list-style:none;padding:0;margin:0 0 28px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.read .fc-grid li.fc{position:relative;margin:0;min-height:150px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:#fff;border:2px solid var(--ink);border-radius:16px;padding:14px 10px;box-shadow:0 4px 0 var(--ink);text-align:center;break-inside:avoid}
+.fc-n{position:absolute;top:6px;right:10px;font-size:12px;font-weight:900;color:var(--soft)}
+.fc-sym{font-family:var(--fd);font-weight:600;font-size:44px;line-height:1;color:var(--ink)}
+.fc-back{display:flex;flex-direction:column;gap:2px;font-size:13.5px;line-height:1.3;color:var(--soft)}
+.fc-back b{color:var(--pri-dk);font-weight:900}
+@media (max-width:640px){.read .fc-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media print{
+.read .wchips li.alien{border-style:dashed!important;border-color:#000!important;background:#fff!important;color:#000!important}
+.read .wchips .pn{font-size:7pt}
+.fc-page>*:not(.fc-grid):not(.wk-print-h):not(.wk-print-note){display:none!important}
+.pg-only>*:not(.pg-grid):not(.wk-print-h):not(.wk-print-note){display:none!important}
+.pg-only .wk-print-note,.fc-page .wk-print-note{display:block!important;font-size:8pt;color:#555;margin-top:3mm}
+.read .fc-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin:0}
+.read .fc-grid li.fc{height:62mm;min-height:0;border:1px dashed #000;border-radius:0;box-shadow:none;padding:4mm}
+.fc-sym{font-size:44pt}
+.fc-back{font-size:10pt}
+.fc-fronts .fc-back,.fc-fronts .fc-n{display:none!important}
+.fc-page .wk-print-h{font-size:12pt;margin:0 0 3mm}
+}
+.linklist{margin:26px 0 0;background:#fff;border:2px solid var(--ink);border-radius:20px;padding:18px 20px;box-shadow:0 4px 0 var(--ink)}
+.linklist h3{font-size:18px;margin:0 0 10px}
+.linklist ul{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px}
+.linklist a{display:inline-block;font-weight:800;font-size:15px;background:var(--pri-soft);color:var(--pri-dk);border-radius:999px;padding:5px 13px}
+.linklist a:hover{background:var(--pri);color:#fff}
+.read .wchips li::before,.read .fc-grid li::before{content:none!important;display:none!important}
+@media print{.read .wchips.paper{gap:3mm}.read .wchips.paper li{font-size:17pt;padding:1mm 9px}.read .wchips.paper .pn{font-size:8pt}}

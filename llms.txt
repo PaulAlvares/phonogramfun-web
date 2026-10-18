@@ -10,7 +10,7 @@
 - Core feature: photograph the school spelling list (or type it); the app imports the words and builds Word Climb, Fill the Gaps stories, dictation and phonogram practice around them.
 - Word Climb: a multi-rung game built from the scanned list. For each word the child hears it, sounds it out, builds it from phonogram blocks, fills the gap in a story, then spells it blind. Climbs can be resumed.
 - Other features: flash cards for the 70 phonograms; revision mode (mixed revision of earlier weeks); dictation with "Hear the word"; interactive 70-phonogram chart with audio; word analyser that splits any word into sound tiles (e.g. sight = s + igh + t); 34 standalone phonogram modules; parent dashboard; daily streaks; iPad landscape layout.
-- Phonics Check: 12 real past Phonics Screening Check papers from England (2012 to 2019 and 2022 to 2025), real and alien words, Australian or British voice, and a Readiness Map of the 70 phonograms coloured light to dark green. A parent runs a paper in about 5 minutes: the child reads each word aloud, the parent taps tick or cross, and the result screen shows which phonograms to work on.
+- Phonics Check: 12 real past Phonics Screening Check papers from England (2012 to 2019 and 2022 to 2025; the 2026 paper is on the website but not yet in the app), real and alien words, Australian or British voice, and a Readiness Map of the 70 phonograms coloured light to dark green. A parent runs a paper in about 5 minutes: the child reads each word aloud, the parent taps tick or cross, and the result screen shows which phonograms to work on.
 - Common exception words module: Year 1 (45 words) and Year 2 (64 words), grouped by the rule each word breaks.
 - Voices and spelling: Australian or British English voice (selectable); Australian and British spelling conventions (en-AU, en-GB). No American voice.
 - Pricing: free tier with one mission a day, the full 70-phonogram chart, Sound Play and the word analyser. "Phonogram Fun Plus" costs AUD $4.99/month or $39.99/year (save 33%); UK £2.99/month or £24.99/year; US $2.99/month or $24.99/year; 7-day free trial. iOS Family Sharing is enabled. Subscriptions are managed in the App Store (iOS) or Google Play (Android).
@@ -42,6 +42,21 @@
 - [Why I built a £2.99 spelling app for UK kids](https://phonogramfun.com/learn/spelling-app-for-uk-kids-phonics-screening-check.html): the founder on weekly spellings, the Year 1 Phonics Screening Check (40 words, 20 real and 20 pseudo-words), KS1 common exception words, GBP pricing, and a 10-minute routine
 - [The Year 1 Phonics Screening Check, explained for parents](https://phonogramfun.com/learn/phonics-screening-check.html)
 - [The Year 1 Phonics Check in Australia](https://phonogramfun.com/learn/year-1-phonics-check-australia.html)
+- [Phonics screening check past papers, 2012 to 2026](https://phonogramfun.com/learn/phonics-screening-check-past-papers.html): all 13 published papers, the pass mark each year (32 from 2012 to 2025, 31 in 2026) and national results, with one page per year listing all 40 words
+- [The 2026 phonics screening check](https://phonogramfun.com/learn/phonics-screening-check-2026.html): threshold 31, the first change since 2012; 82% of Year 1 pupils met it
+- [Phonics screening check 2027](https://phonogramfun.com/learn/phonics-screening-check-2027.html): check week 14 to 18 June 2027; threshold published 28 June 2027
+- [Phonics screening check pass mark, every year](https://phonogramfun.com/learn/phonics-screening-check-pass-mark.html)
+- [Every alien word from the phonics screening check](https://phonogramfun.com/learn/phonics-screening-check-alien-words-list.html): printable
+- [Every real word from the phonics screening check](https://phonogramfun.com/learn/phonics-screening-check-real-words-list.html): printable
+- [The Year 2 phonics check retake](https://phonogramfun.com/learn/phonics-screening-check-year-2-retake.html)
+- [Year 1 phonics check in Queensland](https://phonogramfun.com/learn/year-1-phonics-check-queensland.html)
+- [The Victorian Year 1 Phonics Check](https://phonogramfun.com/learn/year-1-phonics-check-victoria.html): mandatory in government schools from 2026, Term 3 weeks 4 to 6
+- [Year 1 phonics check in South Australia](https://phonogramfun.com/learn/year-1-phonics-check-south-australia.html): since 2018; 66% reached 28/40 in 2025
+- [Year 3, 4, 5 and 6 spelling words (Australia)](https://phonogramfun.com/learn/year-3-spelling-words-australia.html): ten weekly lists per year; see also year-4, year-5 and year-6 pages
+- [Spelling bee words, Year 2 to Year 6 (Australia)](https://phonogramfun.com/learn/year-2-spelling-bee-words-australia.html): 45 words per year in three levels; see also year-3 to year-6 pages
+- [Phonograms 1–26 in Spalding order](https://phonogramfun.com/learn/phonograms-1-26.html)
+- [How many phonograms are there?](https://phonogramfun.com/learn/how-many-phonograms-are-there.html): Spalding 70; Logic of English 75 basic plus 48 advanced
+- [Free printable phonogram cards, all 70](https://phonogramfun.com/learn/spalding-phonogram-cards-printable.html)
 - [Is there a phonics test in first grade?](https://phonogramfun.com/learn/phonics-screening-first-grade-us.html)
 - [Alien words, explained](https://phonogramfun.com/learn/alien-words.html)
 - [Phonics for 2 and 3 year olds](https://phonogramfun.com/learn/phonics-for-2-and-3-year-olds.html)
